@@ -13,13 +13,13 @@ This project is a backend application built with **Express.js** and **Sequelize*
 
 Create a `.env` file in the root directory with the following content:
 
+USERNAME_DATABASE=""
+PASSWORD_DATABASE=""
+NAME_DATABASE=""
+HOST_DATABASE=""
+DIALECT_DATABASE=""
+PORT_DATABASE=0000
 PORT=0000
-DB_HOST=""
-DB_PORT=0000
-DB_USERNAME=""
-DB_PASSWORD=""
-DB_NAME=""
-DB_DIALECT=postgres
 
 ## 🛠️ Getting Started
 
