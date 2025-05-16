@@ -250,7 +250,6 @@ exports.getDriverSalaries = async (req, res) => {
       page_size,
     });
   } catch (err) {
-    console.error(err);
     return res
       .status(500)
       .json({ error: "Something went wrong. Please try again later." });
